@@ -1,0 +1,95 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Стили для изображения магазина */
+.store-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стили для раздела "О нас" */
+.about {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Стили для изображений в разделе "Избранные изделия" */
+.featured {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center; /* Выравнивание содержимого по центру */
+    display: inline-block; /* Добавьте этот стиль */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Выравнивание изображения по центру */
+}
+
+/* Добавленные стили для заголовков и абзацев продуктов */
+.product h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 1em;
+}
+
+.contact-info img {
+    max-width: 20%; /* Уменьшили максимальную ширину изображения */
+    height: auto;
+    display: block;
+}
